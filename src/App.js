@@ -148,27 +148,33 @@ const project = [
 function Home() {
   return (
     <div>
-      <h2 class="uk-text-center">Tommy Craft</h2>
-      <div class="social-links">
-        <a href="https://www.github.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.instagram.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.twitter.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/djfriar/" class="hidden-link" rel="noreferrer" target="_blank">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </div>
+      <div class="container" uk-height-viewport="expand: true">
+        <div class="uk-position-center">
+          <h2 class="uk-text-center">Tommy Craft</h2>
+          <div class="social-links">
+            <a href="https://www.github.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/djfriar/" class="hidden-link" rel="noreferrer" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
 
-      <div class="uk-width-1-1@s">
-        <ul class="uk-nav-default uk-nav-center uk-nav-sub" uk-nav>
-          <li ><Link to="/portfolio">Portfolio</Link></li>
-          <li><Link to="/resume">Resume</Link></li>
-        </ul>
+          <div class="uk-width-1-1@s">
+            <ul class="uk-nav-default uk-nav-center" uk-nav>
+                <ul class="uk-nav-sub homeNav">
+                  <li><a class="hidden-link" href="/portfolio">Portfolio</a></li>
+                  <li><a class="hidden-link" href="/resume">Resume</a></li>
+                </ul>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   )

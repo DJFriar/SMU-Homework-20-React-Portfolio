@@ -57,8 +57,8 @@ export default function App() {
         <div id="mobilenav" uk-offcanvas="flip: true" class="uk-offcanvas">
           <div class="uk-offcanvas-bar">
             <ul class="uk-nav">
-              <li><a href="/portfolio">Portfolio</a></li>
-              <li><a href="/resume">Resume</a></li>
+              <li><Link to="/portfolio">Portfolio</Link></li>
+              <li><Link to="/resume">Resume</Link></li>
               <hr />
               <div class="social-links">
                 <a href="https://www.github.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">

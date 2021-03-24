@@ -169,8 +169,8 @@ function Home() {
           <div class="uk-width-1-1@s">
             <ul class="uk-nav-default uk-nav-center" uk-nav>
                 <ul class="uk-nav-sub homeNav">
-                  <li><a class="hidden-link" href="/portfolio">Portfolio</a></li>
-                  <li><a class="hidden-link" href="/resume">Resume</a></li>
+                  <li><Link class="hidden-link" to="/portfolio">Portfolio</Link></li>
+                  <li><Link class="hidden-link" to="/resume">Resume</Link></li>
                 </ul>
             </ul>
           </div>

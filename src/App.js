@@ -101,31 +101,46 @@ const project = [
     id: '1',
     name: 'Outdoor Adventures',
     description: 'This was a group project that I worked on with two other students. We were to come up with a site that utilized at least one external 3rd party API, leveraged Express and NodeJS, and introduced at least one new framework we had not worked with before. We decide to build a site that used National Park Service data to allow for users to view details about the various parks and then add them to a list of either parks they had visited already, or parks that they would like to visit.',
-    keyTech: 'Axios, Bootstrap, Express, Handlebars, Heroku, MySQL, Passport, Sequlize'
+    keyTech: 'Axios, Bootstrap, Express, Handlebars, Heroku, MySQL, Passport, Sequlize',
+    gitHub: 'https://github.com/DJFriar/SMU-Project-02-Outdoor-Adventures',
+    deployedApp: 'https://smu-project-outdoor-adventures.herokuapp.com/',
+    screenshot: ''
   },
   {
     id: '2',
     name: 'Reverse Engineering Code',
     description: 'In this assignment we were to review a sample site and describe what was going on with the code. While we could have done this with a simple Word doc, I chose to make a website that leveraged PrismJS to stylize the code and have my notes next to it.',
-    keyTech: 'Express, PrismJS, UIKit'
+    keyTech: 'Express, PrismJS, UIKit',
+    gitHub: 'https://github.com/DJFriar/SMU-Homework-14-Reverse-Engineering-Code',
+    deployedApp: 'https://emu-homework-14.herokuapp.com',
+    screenshot: ''
   },
   {
     id: '3',
     name: 'Code Quiz',
     description: 'This was the 4th homework assignment I was assigned. The goal here was to create an app that allowed the user to take a timed multiple choice quiz test and then would score the user at the end.',
-    keyTech: 'Bootstrap, CSS, HTML5, jQuery'
+    keyTech: 'Bootstrap, CSS, HTML5, jQuery',
+    gitHub: 'https://github.com/DJFriar/SMU-Homework-04-Code-Quiz',
+    deployedApp: 'https://djfriar.github.io/SMU-Homework-04-Code-Quiz/',
+    screenshot: ''
   },
   {
     id: '4',
     name: 'Password Generator',
     description: 'A password generator site that allows you to set your complexity requirements and then generate randomized passwords that meet those requirements. This was the 3rd homework project in the Full Stack Web Dev course.',
-    keyTech: 'teBootstrap, CSS, HTML5, jQuerych'
+    keyTech: 'teBootstrap, CSS, HTML5, jQuerych',
+    gitHub: 'https://github.com/DJFriar/SMU-Homework-03-Password-Generator',
+    deployedApp: 'https://djfriar.github.io/SMU-Homework-03-Password-Generator/',
+    screenshot: ''
   },
   {
     id: '5',
     name: 'Tour of Honor Mobile',
     description: 'The Tour of Honor is a motorcycle rally that uses various military and first responder memorials as rally locations. Starting out using physical pictures and snail mail, they recently started to allow for emailed in submissions that had specific subject formatting and such. So I volunteered to make them an app that made submitting easier for participants and this is the result of that. The iOS version came out first, followed by an Android version. The iOS version has since been rewritten from scratch using SwiftUI and is currently on version 2.',
-    keyTech: 'Xcode, Android Studio, Swift, SwiftUI, Java'
+    keyTech: 'Xcode, Android Studio, Swift, SwiftUI, Java',
+    gitHub: 'https://github.com/DJFriar/iTOH-2',
+    deployedApp: 'https://apps.apple.com/us/app/tour-of-honor/id1502873246?itsct=apps_box&amp;itscg=30200',
+    screenshot: ''
   },
 ];
 
@@ -133,8 +148,27 @@ function Home() {
   return (
     <div>
       <h2 class="uk-text-center">Tommy Craft</h2>
-      <Link to="/portfolio">Portfolio</Link><br />
-      <Link to="/resume">Resume</Link>
+      <div class="social-links">
+        <a href="https://www.github.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.twitter.com/djfriar" class="hidden-link" rel="noreferrer" target="_blank">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/djfriar/" class="hidden-link" rel="noreferrer" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+
+      <div class="uk-width-1-1@s">
+        <ul class="uk-nav-default uk-nav-center uk-nav-sub" uk-nav>
+          <li ><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/resume">Resume</Link></li>
+        </ul>
+      </div>
     </div>
   )
 }
@@ -146,9 +180,9 @@ function Resume() {
 function Portfolio() {
   return (
     <div>
-      <h2>Portfolio</h2>
+      <h3>Development Portfolio</h3>
       {project.map(row => (
-        <Project name={row.name} description={row.description} keyTech={row.keyTech} />
+        <Project name={row.name} description={row.description} keyTech={row.keyTech} gitHub={row.gitHub} deployedApp={row.deployedApp} screenshot={row.screenshot} />
       ))}
     </div>
   )

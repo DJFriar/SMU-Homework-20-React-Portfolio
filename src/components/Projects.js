@@ -5,7 +5,7 @@ const Project = ({ name, description, keyTech, gitHub, deployedApp, screenshot})
     <div>
       <div class="portfolioItem" uk-grid>
         <div class="uk-width-1-3@m uk-text-center">
-          <img src="%PUBLIC_URL%/images/outdoor-adventures-sm.jpg" alt="Application Screenshot" class="reportImage"/>
+          <img src={screenshot} alt="Application Screenshot" class="reportImage"/>
         </div>
         <div class="uk-width-2-3@m uk-flex-first@m">
           <h4>{name}</h4>

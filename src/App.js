@@ -105,7 +105,7 @@ const project = [
     keyTech: 'Axios, Bootstrap, Express, Handlebars, Heroku, MySQL, Passport, Sequlize',
     gitHub: 'https://github.com/DJFriar/SMU-Project-02-Outdoor-Adventures',
     deployedApp: 'https://smu-project-outdoor-adventures.herokuapp.com/',
-    screenshot: ''
+    screenshot: 'https://djfriar.github.io/SMU-Homework-20-React-Portfolio/images/outdoor-adventures-sm.jpg'
   },
   {
     id: '2',
@@ -114,7 +114,7 @@ const project = [
     keyTech: 'Express, PrismJS, UIKit',
     gitHub: 'https://github.com/DJFriar/SMU-Homework-14-Reverse-Engineering-Code',
     deployedApp: 'https://emu-homework-14.herokuapp.com',
-    screenshot: ''
+    screenshot: 'https://djfriar.github.io/SMU-Homework-20-React-Portfolio/images/homework-14-sm.jpg'
   },
   {
     id: '3',
@@ -123,7 +123,7 @@ const project = [
     keyTech: 'Bootstrap, CSS, HTML5, jQuery',
     gitHub: 'https://github.com/DJFriar/SMU-Homework-04-Code-Quiz',
     deployedApp: 'https://djfriar.github.io/SMU-Homework-04-Code-Quiz/',
-    screenshot: ''
+    screenshot: 'https://djfriar.github.io/SMU-Homework-20-React-Portfolio/images/code-quiz-sm.jpg'
   },
   {
     id: '4',
@@ -132,7 +132,7 @@ const project = [
     keyTech: 'teBootstrap, CSS, HTML5, jQuerych',
     gitHub: 'https://github.com/DJFriar/SMU-Homework-03-Password-Generator',
     deployedApp: 'https://djfriar.github.io/SMU-Homework-03-Password-Generator/',
-    screenshot: ''
+    screenshot: 'https://djfriar.github.io/SMU-Homework-20-React-Portfolio/images/password-generator-sm.jpg'
   },
   {
     id: '5',
@@ -141,7 +141,7 @@ const project = [
     keyTech: 'Xcode, Android Studio, Swift, SwiftUI, Java',
     gitHub: 'https://github.com/DJFriar/iTOH-2',
     deployedApp: 'https://apps.apple.com/us/app/tour-of-honor/id1502873246?itsct=apps_box&amp;itscg=30200',
-    screenshot: ''
+    screenshot: 'https://djfriar.github.io/SMU-Homework-20-React-Portfolio/images/toh-apps-sm.png'
   },
 ];
 

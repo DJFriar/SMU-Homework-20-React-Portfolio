@@ -10,4 +10,5 @@ Clone the repo and use ```npm install``` to configure.
 
 ## Screenshot
 
+View the deployed app [here](https://djfriar.github.io/SMU-Homework-20-React-Portfolio/)
 ![Screenshot of my React Portfolio website](AppScreenshot.jpg "SMU Homework 20 - React Portfolio")

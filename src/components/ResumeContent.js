@@ -5,7 +5,7 @@ const ResumeContent = () => {
     <div>
       <main>
         <h3>Resume & Portfolio</h3>
-        <p>Please click <a href="/SMU-Homework-20-React-Portfolio/Tommy-Craft-Resume.pdf" target="_blank" rel="noreferrer">here</a> to download my resume as a PDF.
+        <p>Please click <a href="https://djfriar.github.io/SMU-Homework-20-React-Portfolio/Tommy-Craft-Resume.pdf" target="_blank" rel="noreferrer">here</a> to download my resume as a PDF.
           You may also review it below.</p>
         <h4>Summary</h4>
         <p>

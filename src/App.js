@@ -1,5 +1,6 @@
 import React from "react";
 import Project from './components/Projects';
+import ResumeContent from './components/ResumeContent';
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,7 +11,7 @@ import {
 export default function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div>
+      <div class="topnav">
         {/* Desktop Navigation */}
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
           <div class="gradientbar"></div>
@@ -174,7 +175,11 @@ function Home() {
 }
 
 function Resume() {
-  return <h2>Resume</h2>
+  return (
+    <div>
+      <ResumeContent />
+    </div>
+  )
 }
 
 function Portfolio() {
